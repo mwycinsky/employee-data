@@ -11,7 +11,7 @@
   firebase.initializeApp(config);
    
    // Capture Button Click
-    $("#add-user").on("click", function(event) {
+    $("#submit").on("click", function(event) {
         // Don't refresh the page!
         event.preventDefault();
   
